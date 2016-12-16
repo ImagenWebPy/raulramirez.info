@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteCond %{HTTP:Accept-Language} (es) [NC]
+#
+# Use accept-language to redirect to subdirectory, default to english if no match
+RewriteCond %{HTTP:Accept-Language} ^(en¦es)[-,;]? [NC,OR]
+RewriteCond es ^(es)$
+RewriteRule ^$ http://raulramirez.info/%1/ [R=301,L]
+#
+RewriteRule ^([a-z0-9_-]+)/?$ index.php?lang=$1 [NC,L]
