@@ -22,8 +22,8 @@ switch ($lang) {
 require_once 'class/lang.class.php';
 $mylang = new mylanguage();
 $mylang->load_language($_SESSION['mylang']);
-$path = 'http://' . $_SERVER['SERVER_NAME'];
-#$path =  'http://raulramirez.info';
+#$path = 'http://' . $_SERVER['SERVER_NAME'];
+$path =  'http://raulramirez.info';
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
