@@ -123,7 +123,7 @@
                                     <!-- // Input 4-->
 
                                     <!--Button-->
-                                    <?php /*<button id="contactsubmitBtn" type="submit" class="btn btn-3 btn-3e"><?php echo BUDGET_BTN; ?></button>*/ ?>
+                                    <button id="contactsubmitBtn" type="submit" class="btn btn-3 btn-3e"><?php echo BUDGET_BTN; ?></button>
                                     <!-- // Button-->
                                 </div>
                             </form>
@@ -135,5 +135,8 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    
+</script>
 <!-- // Contact Form
 =============================-->

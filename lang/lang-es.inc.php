@@ -4,7 +4,7 @@
  * TRADUCTION: Raul Ramirez
  */
 define('PAGE_TITLE','Raul Ramirez - FrontEnd & BackEnd Developer. Estratega Digital');
-define('PAGE_DESCRIPTION','Hola!, soy Raúl Ramírez y soy Web Developer, con un poco de diseñador grafico, manejo las herramientas del Marketing Online. Vivo en Asunción, Paraguay.');
+define('PAGE_DESCRIPTION','Hola!, soy Raúl Ramírez y soy Desarrollador Web, con un poco de diseñador grafico, manejo las herramientas del Marketing Online. Vivo en Asunción, Paraguay.');
 define('PAGE_KEYWORDS','programador, web developer, developer, desarrollador, desarrollador web, web master, webmaster, estratega digital, marketing online, marketing digital');
 /************
  *MENU

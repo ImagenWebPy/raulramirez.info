@@ -46,7 +46,7 @@ if (isset($_POST)) {
             echo '<strong style="color:green; font-size: 16px;">Se ha enviado su mensaje</strong>';
             var_dump($mail);
         } else {
-            echo 'Could not send email!';
+            echo 'No se ha podido enviar su mensaje';
         }
     }
     else
